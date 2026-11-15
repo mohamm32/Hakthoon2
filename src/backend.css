@@ -1,0 +1,133 @@
+/* Backend screens and toolbar. Desktop padding clears the fixed sidebar. */
+.backend-login,.backend-settings,.backend-bar {
+  font-family:Arial,sans-serif;
+  color:#203d30;
+  box-sizing:border-box;
+}
+
+.backend-login {
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  background:#f2f6ee;
+  padding:24px;
+}
+
+.backend-login form {
+  width:min(430px,100%);
+  padding:32px;
+  background:#fff;
+  border:1px solid #dbe5d5;
+  border-radius:16px;
+  box-shadow:0 16px 48px #203d3010;
+}
+
+.backend-login h1 {
+  font-size:26px;
+}
+
+.backend-login p,.backend-settings p {
+  line-height:1.65;
+  color:#5f7166;
+}
+
+.backend-login label,.backend-settings label {
+  display:grid;
+  gap:7px;
+  margin:14px 0;
+  font-size:13px;
+}
+
+.backend-login input,.backend-settings input,.backend-settings select,.backend-settings textarea {
+  box-sizing:border-box;
+  width:100%;
+  padding:11px;
+  border:1px solid #cbdac9;
+  border-radius:7px;
+  font:inherit;
+  background:#fff;
+  color:#203d30;
+}
+
+.backend-login button,.backend-settings button,.backend-bar button {
+  padding:10px 15px;
+  background:#28563d;
+  color:#fff;
+  border:0;
+  border-radius:7px;
+  cursor:pointer;
+  font:inherit;
+}
+
+.backend-login button:disabled,.backend-settings button:disabled,.backend-bar button:disabled {
+  opacity:.5;
+  cursor:default;
+}
+
+.backend-bar {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  padding:12px 20px 12px 295px;
+  min-height:80px;
+  background:#e5eedf;
+  border-bottom:1px solid #c7d8c0;
+  font-size:12px;
+  position:relative;
+  z-index:20;
+}
+
+.backend-bar small {
+  flex-basis:100%;
+  line-height:1.5;
+}
+
+.backend-settings {
+  padding:24px;
+  background:#f7f9f4;
+  border-radius:12px;
+}
+
+.backend-settings h1 {
+  font-size:28px;
+}
+
+.backend-settings h2 {
+  font-size:19px;
+}
+
+.backend-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.backend-grid form {
+  padding:24px;
+  border:1px solid #d3dfcd;
+  border-radius:12px;
+  background:#fff;
+}
+
+.backend-settings li {
+  padding:8px 0;
+  overflow-wrap:anywhere;
+}
+
+.backend-login :focus-visible,.backend-settings :focus-visible,.backend-bar :focus-visible {
+  outline:3px solid #8fb780;
+  outline-offset:3px;
+}
+
+@media(max-width:760px) {
+  .backend-grid {
+    grid-template-columns:1fr;
+  }
+  .backend-bar {
+    padding:10px;
+  }
+  .backend-login form {
+    padding:22px;
+  }
+}

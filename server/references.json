@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S1",
+    "title": "Lumbar spine paraspinal muscle and intervertebral disc height changes in astronauts",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5588025/",
+    "finding": "Lean paraspinal muscle fraction fell from 86% to 72%. Post-flight disc heights were not appreciably different.",
+    "limitations": "Track muscle quality separately from spinal dimensions. Camera estimates cannot measure either."
+  },
+  {
+    "id": "S2",
+    "title": "Change in Lumbar Muscle Size and Composition on MRI with Long-Duration Spaceflight",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9167780/",
+    "finding": "Paraspinal cross-sectional area decreased by 9.0% on average, with substantial variation between individuals.",
+    "limitations": "Compare each astronaut with their own baseline. Association with exercise does not establish a prescription."
+  },
+  {
+    "id": "S3",
+    "title": "Changes in Vertebral Bone Density and Paraspinal Muscle Morphology Following Spaceflight and 1 Year Readaptation on Earth",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10731107/",
+    "finding": "Regional vertebral bone loss and changes in muscle morphology persisted into readaptation.",
+    "limitations": "Use dated clinical imaging for bone and muscle tissue metrics; never infer bone density from video."
+  },
+  {
+    "id": "S4",
+    "title": "Field Assessment of Sensorimotor Function Following Long-Duration Spaceflight",
+    "url": "https://ntrs.nasa.gov/citations/20220016680",
+    "finding": "Early post-flight testing showed slower stabilization and poorer walking performance, with task-dependent recovery.",
+    "limitations": "Keep pre-flight and post-flight balance assessments separate from in-flight movement."
+  },
+  {
+    "id": "S5",
+    "title": "Kinematic Sensors Evaluation for Spaceflight Exercise Data Collections",
+    "url": "https://ntrs.nasa.gov/citations/20240001089",
+    "finding": "NASA describes marker-based in-flight capture and evaluates camera and wearable approaches for exercise data.",
+    "limitations": "Motivates multimodal capture. This prototype\u2019s single-camera pose model is not validated for microgravity."
+  },
+  {
+    "id": "S6",
+    "title": "NASA-STD-3001, Volume 2 \u2014 Human Factors, Habitability, and Environmental Health",
+    "url": "https://www.nasa.gov/reference/nasa-std-3001v2/",
+    "finding": "NASA already defines human-system requirements for spaceflight, including physical capabilities and equipment accommodation.",
+    "limitations": "Map research hypotheses to existing standards. Proposed adaptations require expert review and validation."
+  }
+]
